@@ -128,7 +128,10 @@ export const Play = () => {
               bottom: 0,
             }}
           >
-            <Link to={`/`} style={{ color: "white", textDecoration: "none" }}>
+            <Link
+              to={`/cvdeck/`}
+              style={{ color: "white", textDecoration: "none" }}
+            >
               ホームに戻る
             </Link>
           </Box>

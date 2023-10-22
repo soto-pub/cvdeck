@@ -78,7 +78,7 @@ export const Home = () => {
               sx={{ width: 250, height: 70, fontSize: "15px", my: 2 }}
             >
               <Link
-                to={`/standard`}
+                to={`/cvdeck/standard`}
                 style={{ color: "white", textDecoration: "none" }}
               >
                 スタンダードフォーマルでPlay!
@@ -106,7 +106,7 @@ export const Home = () => {
               }}
             >
               <Link
-                to={`/love`}
+                to={`/cvdeck/love`}
                 style={{ color: "white", textDecoration: "none" }}
               >
                 カジュアル恋愛デッキでPlay!

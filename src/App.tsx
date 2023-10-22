@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path={`/`} element={<Root />} />
-          <Route path={`/cvdeck`} element={<Home />} />
+          <Route path={`/cvdeck/`} element={<Home />} />
           <Route path={`/cvdeck/standard`} element={<Play />} />
           <Route path={`/cvdeck/love`} element={<Love />} />
         </Routes>
